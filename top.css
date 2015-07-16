@@ -2,12 +2,11 @@
   list-style:none;
   display: inline;
   padding: 8%;
-  button-align: left;
 }
 
 .trapped {
   border: solid 2px black;
-  text-alig: right;
+  text-align: right;
   float: left;
   width: 100%;
 }
@@ -20,10 +19,36 @@ float: left;
   float: left;
   margin: 0 auto;
 }
-#victory {
-  Border: solid 2px red;
+#free {
+  width:10%;
+ float: right;
+}
+.victory {
+  border: solid 2px red;
+}
+.ping p {
+  border: solid 2px red;
+  width:80%;
+}
+#ping {
+  width: 100%;
+ float: left;
+  
+}
+.victory p {
+  width:100%;
+  float: right;
 }
 
 #memories {
   border: solid 2px blue;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
