@@ -10,9 +10,16 @@
   float: left;
   width: 100%;
 }
+.trapped h2 {
+  text-align: center;
+  margin-left: 20%;
+}
 .trapped p {
-  width: 60%;
+  width: 65%;
 float: left;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  text-align: justify;
 }  
 
 .trapped h3 {
@@ -20,35 +27,27 @@ float: left;
 }
 
 #elevator {
-   width: 10%;
+   width: 25%;
   float: left;
   margin: 0 auto;
 }
-#free {
-  width:10%;
- float: right;
-}
-.victory {
-/*   border: solid 2px red;
-} */
 .ping p {
-/*   border: solid 2px red; */
   width:80%;
+  
 }
 #ping {
-  width: 100%;
- float: left;
-  
+  width: 25%;
+  float: left;
+}
 }
 .victory p {
   width:100%;
   float: right;
 }
-
-#memories {
-  border: solid 2px blue;
+#ball {
+  width:25%;
+  float: right;
 }
-
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -57,3 +56,6 @@ float: left;
      clear: both;
      height: 0;
      }
+#memories {
+
+}
