@@ -1,0 +1,29 @@
+#head ul li {
+  list-style:none;
+  display: inline;
+  padding: 8%;
+  button-align: left;
+}
+
+.trapped {
+  border: solid 2px black;
+  text-alig: right;
+  float: left;
+  width: 100%;
+}
+.trapped p {
+  width: 60%;
+float: left;
+}  
+#elevator {
+   width: 10%;
+  float: left;
+  margin: 0 auto;
+}
+#victory {
+  Border: solid 2px red;
+}
+
+#memories {
+  border: solid 2px blue;
+}
